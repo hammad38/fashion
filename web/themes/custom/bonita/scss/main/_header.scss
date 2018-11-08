@@ -1,0 +1,35 @@
+.region-header {
+  /*header-container*/
+  background: #181818;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+
+  /*logo*/
+  #block-bonita-branding {
+    img {
+      width: 38px;
+      height: 38px;
+    }
+  }
+
+  /*main-menu*/
+  nav {
+    ul.menu {
+      text-transform: uppercase;
+      display: flex;
+
+      li {
+        padding: 10px 14px;
+      }
+    }
+  }
+
+  /*scheduler-block*/
+  nav#block-rezervacer {
+    li {
+      background: #9c8162;
+      border-radius: 30px;
+    }
+  }
+}
