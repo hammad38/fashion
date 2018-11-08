@@ -1,0 +1,1 @@
+{"version":3,"sources":["theme.js"],"names":["jQuery","document","ready"],"mappings":"aAaKA,OANHC,UAAAC,MAAA","file":"theme.js","sourcesContent":["0,\n    /**\n * @files\n * Global Bonita theme JS.\n */\n\n(function ($) {\n  'use strict';\n\n    $( document ).ready(function() {\n\n        // Start Coding From Here\n\n    });\n\n})(jQuery);\n"]}

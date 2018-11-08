@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+
+/* Imports */
+
+// Default Imports
+@import "defaults/resets";
+@import "defaults/breakpoint";
+
+// Global Theme Settings Imports
+@import "bonita-theme-global-styling";
+
+// Main-Theme Imports
+@import "main/header";
+@import "main/footer";
+
+
+
+/* Styling */
+body {
+  background-color: white;
+}

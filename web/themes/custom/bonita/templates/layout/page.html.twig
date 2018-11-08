@@ -1,0 +1,33 @@
+{#
+/**
+ * @file
+ * The Thirteen theme implementation to display a single page.
+ */
+#}
+
+<header role="banner" class="page-header">
+  <div class="layout-container">
+    {{ page.header }}
+  </div>
+</header>
+
+<div class="layout-container">
+  <main role="main" class="row">
+    <div class="visually-hidden"><a id="main-content" tabindex="-1"></a></div>
+    <div class="small-12 columns">
+      {{ page.content }}
+    </div>{# /.layout-content #}
+  </main>
+
+  {% if page.content_bottom %}
+    <aside id="content-bottom">
+      {{ page.content_bottom }}
+    </aside>
+  {% endif %}
+
+  {% if page.footer %}
+    <footer role="contentinfo" class="clearfix">
+      {{ page.footer }}
+    </footer>
+  {% endif %}
+</div>{# /.layout-container #}

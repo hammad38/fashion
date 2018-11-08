@@ -1,0 +1,11 @@
+global:
+  version: VERSION
+  css:
+    base:
+      dist/css/main.css: { minified: true }
+  js:
+    dist/js/theme.min.js: { minified: true }
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once
