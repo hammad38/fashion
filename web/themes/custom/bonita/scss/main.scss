@@ -9,18 +9,31 @@
 // Global Theme Settings Imports
 @import "bonita-theme-global-styling";
 
-// Main-Theme Imports
-@import "main/header";
-@import "main/footer";
-
 
 
 /* Styling */
 body {
-  background-color: grey;
+  background-color: white;
   color: white;
+
+  article {
+    max-width: 800px;
+    margin: auto;
+    color: #7e7e7e;
+
+    h2, h3 {
+      color: #b3906a;
+    }
+  }
 }
 
 a {
   text-decoration: none;
 }
+
+
+
+// Main-Theme Imports
+@import "main/header";
+@import "main/page";
+@import "main/footer";

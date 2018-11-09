@@ -1,0 +1,30 @@
+.region-content {
+
+  /*page-title-block*/
+  #block-bonita-page-title {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 368px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*page-content-block*/
+  #block-bonita-content {
+    /*top-slider*/
+    .field-image-slider {
+      img {
+        width: 100%;
+        height: 368px;
+        object-fit: cover;
+      }
+    }
+
+    /*content*/
+    article {
+
+    }
+  }
+}

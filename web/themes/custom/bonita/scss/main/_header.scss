@@ -1,35 +1,41 @@
-.region-header {
-  /*header-container*/
-  background: #181818;
-  padding: 15px 30px;
-  display: flex;
-  justify-content: space-between;
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 2;
 
-  /*logo*/
-  #block-bonita-branding {
-    img {
-      width: 38px;
-      height: 38px;
-    }
-  }
+  .region-header {
+    /*header-container*/
+    //background: #181818;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
 
-  /*main-menu*/
-  nav {
-    ul.menu {
-      text-transform: uppercase;
-      display: flex;
-
-      li {
-        padding: 10px 14px;
+    /*logo*/
+    #block-bonita-branding {
+      img {
+        width: 38px;
+        height: 38px;
       }
     }
-  }
 
-  /*scheduler-block*/
-  nav#block-rezervacer {
-    li {
-      background: #9c8162;
-      border-radius: 30px;
+    /*main-menu*/
+    nav {
+      ul.menu {
+        text-transform: uppercase;
+        display: flex;
+
+        li {
+          padding: 10px 14px;
+        }
+      }
+    }
+
+    /*scheduler-block*/
+    nav#block-rezervacer {
+      li {
+        background: #9c8162;
+        border-radius: 30px;
+      }
     }
   }
 }
